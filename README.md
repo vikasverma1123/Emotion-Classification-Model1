@@ -7,7 +7,7 @@ This repository contains a project that classifies tweets into six emotion categ
 - **Objective:**  
   Develop a robust classifier to automatically identify the emotion conveyed in tweets.
 - **Approach:**  
-  The model uses a simple yet effective architecture consisting of an embedding layer and a bidirectional GRU layer. Despite experimenting with more complex architectures, the final model—chosen for its balance between simplicity and performance—achieved a test accuracy of **93.47%** with a test loss of **0.1047**.
+  The model uses a simple yet effective architecture consisting of an embedding layer and a bidirectional GRU layer. Despite experimenting with more complex architectures, the final model—chosen for its balance between simplicity and performance—achieved a test accuracy of **93.27%** with a test loss of **0.1047**.
 - **Insights:**  
   In addition to classification, the project includes a detailed analysis of unique word distributions across emotions, providing insights into the linguistic nuances of social media text.
 
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ## 📊 Results
 - **Test Loss:** 0.1047  
-- **Test Accuracy:** 93.47%  
+- **Test Accuracy:** 93.27%  
 - **Confusion Matrix Analysis:**  
   The confusion matrix shows strong performance on emotions like sadness and joy, with some expected misclassifications between similar positive (joy vs. love) and negative (anger vs. fear) emotions.
 
@@ -52,12 +52,4 @@ tweet-emotion-classification/
 ├── emotion-classification-of-tweets.ipynb  # Main Project file
 ├── text.csv                                # Data file
 └── README.md                               # This file
-```
-
-## 📄 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## 📫 Contact
-For any questions or collaboration opportunities, please contact [John Pospisil](mailto:john@johnpospisil.com).\
-Feel free to explore, contribute, and use this project as a foundation for further research in natural language processing and emotion detection!
 ```
